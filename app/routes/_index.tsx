@@ -7,11 +7,11 @@ import { getServices } from "@/data/services.server";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Ron's Handyman Services | Littleton, CO" },
+    { title: "Ron's Handyman Services | Denver, CO" },
     {
       name: "description",
       content:
-        "Professional handyman services in Littleton, CO. Home improvements, remodeling, appliance install, flooring, cabinetry, and more. Available 7 days a week.",
+        "Professional handyman services in Denver, CO. Home improvements, remodeling, appliance install, flooring, cabinetry, and more. Available 7 days a week.",
     },
   ];
 }
