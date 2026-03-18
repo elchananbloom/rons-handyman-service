@@ -319,7 +319,10 @@ export default function Index({ loaderData }: Route.ComponentProps) {
             <span className="hidden md:inline">|</span>
             <span>Sun – Sat, All day</span>
           </div>
-          <div>&copy; {new Date().getFullYear()} Ron's Handyman Services</div>
+          <div className="flex items-center gap-4">
+            <span>&copy; {new Date().getFullYear()} Ron's Handyman Services</span>
+            <a href="/privacy" className="hover:underline">Privacy Policy</a>
+          </div>
         </div>
       </footer>
     </div>
