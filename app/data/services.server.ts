@@ -9,8 +9,7 @@ export const services: Gallery4Item[] = [
     description:
       "General repairs, upgrades, and improvements to keep your home in top condition. No job is too small.",
     href: phoneHref(),
-    image:
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1080&q=80",
+    image: "/imgs/home_improvment.png",
   },
   {
     id: "remodeling",
@@ -18,8 +17,7 @@ export const services: Gallery4Item[] = [
     description:
       "Full-scale kitchen, bathroom, and living space remodels crafted with quality materials and expert workmanship.",
     href: phoneHref(),
-    image:
-      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1080&q=80",
+    image: "/imgs/remodeling.png",
   },
   {
     id: "appliance-install",
@@ -27,8 +25,7 @@ export const services: Gallery4Item[] = [
     description:
       "Safe and proper installation of washers, dryers, dishwashers, refrigerators, and other home appliances.",
     href: phoneHref(),
-    image:
-      "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1080&q=80",
+    image: "/imgs/appliance_install.png",
   },
   {
     id: "furniture-assembly",
@@ -36,8 +33,7 @@ export const services: Gallery4Item[] = [
     description:
       "Quick and efficient assembly of flat-pack and ready-to-assemble furniture from any brand or retailer.",
     href: phoneHref(),
-    image:
-      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1080&q=80",
+    image: "/imgs/furniture_assembly.png",
   },
   {
     id: "cabinetry",
@@ -45,8 +41,7 @@ export const services: Gallery4Item[] = [
     description:
       "Custom cabinet installation, repair, and refinishing for kitchens, bathrooms, and storage spaces.",
     href: phoneHref(),
-    image:
-      "https://images.unsplash.com/photo-1556909195-b7e4a8a7e9ec?w=1080&q=80",
+    image: "/imgs/cabinetry.png",
   },
   {
     id: "dry-wall",
@@ -54,8 +49,7 @@ export const services: Gallery4Item[] = [
     description:
       "Drywall installation, patching, texturing, and finishing — from minor repairs to full room builds.",
     href: phoneHref(),
-    image:
-      "https://images.unsplash.com/photo-1565538810643-b5bdb0d7c5c1?w=1080&q=80",
+    image: "/imgs/dry_wall.png",
   },
   {
     id: "flooring",
@@ -63,8 +57,7 @@ export const services: Gallery4Item[] = [
     description:
       "Hardwood, laminate, tile, and vinyl flooring installation and repair for every room in your home.",
     href: phoneHref(),
-    image:
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1080&q=80",
+    image: "/imgs/flooring.png",
   },
   {
     id: "deck-patio",
@@ -72,8 +65,7 @@ export const services: Gallery4Item[] = [
     description:
       "Deck building, patio installation, and outdoor structure repairs to extend your living space outside.",
     href: phoneHref(),
-    image:
-      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1080&q=80",
+    image: "/imgs/deck_patio.png",
   },
   {
     id: "landscaping",
@@ -81,8 +73,7 @@ export const services: Gallery4Item[] = [
     description:
       "Lawn care, planting, mulching, cleanup, and landscaping services to keep your yard looking its best.",
     href: phoneHref(),
-    image:
-      "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1080&q=80",
+    image: "/imgs/landscaping.png",
   },
   {
     id: "fence-gate",
