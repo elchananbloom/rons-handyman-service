@@ -1,3 +1,4 @@
+import type { Route } from "./+types/privacy";
 import { Wrench } from "lucide-react";
 
 export function meta() {
@@ -7,7 +8,14 @@ export function meta() {
   ];
 }
 
-export default function Privacy() {
+export async function loader() {
+  const phoneRaw = process.env.PHONE_NUMBER ?? "6146782211";
+  const phoneDisplay = phoneRaw.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
+  return { phoneRaw, phoneDisplay };
+}
+
+export default function Privacy({ loaderData }: Route.ComponentProps) {
+  const { phoneRaw, phoneDisplay } = loaderData;
   return (
     <div
       className="min-h-screen"
@@ -116,11 +124,11 @@ export default function Privacy() {
             <p>
               If you have any questions about this privacy policy, you can reach us by phone at{" "}
               <a
-                href={`tel:${process.env.PHONE_NUMBER ?? "6146782211"}`}
+                href={`tel:${phoneRaw}`}
                 className="underline hover:opacity-70"
                 style={{ color: "hsl(var(--primary))" }}
               >
-                {(process.env.PHONE_NUMBER ?? "6146782211").replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3")}
+                {phoneDisplay}
               </a>
               .
             </p>
