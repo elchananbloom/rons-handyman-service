@@ -154,7 +154,7 @@ export default function Index({ loaderData }: Route.ComponentProps) {
             className="max-w-3xl"
           >
             <div className="mb-4 inline-block rounded-full border border-white/30 px-4 py-1 text-sm font-medium text-white">
-              Serving Littleton, CO and surrounding areas
+              Serving Denver, CO and surrounding areas
             </div>
             <h1 className="mb-6 text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">
               Reliable Handyman Services You Can Trust
@@ -257,7 +257,7 @@ export default function Index({ loaderData }: Route.ComponentProps) {
                 Local, Dependable, and Done Right
               </h2>
               <p className="mb-4" style={{ color: "hsl(var(--muted-foreground))" }}>
-                Ron has been serving homeowners in Littleton and the surrounding
+                Ron has been serving homeowners in Denver and the surrounding
                 Denver metro area with honest, quality handyman work. Whether
                 it's a leaky faucet, a new floor, or a full room remodel, every
                 job gets the same level of care and attention to detail.
